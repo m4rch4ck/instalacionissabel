@@ -15,18 +15,34 @@ En este trabajo final, presentaré el proceso detallado que seguí para realizar
 ## Pasos de instalación
 
 ### Paso 1: Preparación del servidor
-1. Instalé un sistema operativo compatible en el servidor, opté por Linux CentOS debido a su estabilidad y amplio soporte.
+1. Instalé un sistema operativo compatible en el servidor, opté por Linux Redhat debido a su estabilidad y amplio soporte.
 2. Actualicé el sistema operativo a la última versión disponible para asegurarme de tener todas las correcciones de seguridad y mejoras.
 3. Configuré la red del servidor asignándole una dirección IP estática para facilitar el acceso y la gestión.
 
 ### Paso 2: Descarga de Issabel PBX
 1. Visité el sitio web oficial de Issabel PBX (https://www.issabel.org/) y descargué la imagen ISO de Issabel PBX.
-2. Luego, creé una unidad de instalación de Issabel PBX utilizando la imagen ISO descargada y un programa de grabación de discos.
+2. Luego, creé una unidad de instalación de Issabel PBX utilizando la imagen ISO descargada.
 
 ### Paso 3: Instalación de Issabel PBX
 1. Inicié el servidor desde la unidad de instalación de Issabel PBX que creé anteriormente.
-2. Seguí las instrucciones del asistente de instalación de Issabel PBX para configurar los parámetros básicos, como idioma, zona horaria y contraseña de administrador.
-3. A continuación, configuré los parámetros de red, asegurándome de asignar una dirección IP adecuada para el servidor en mi entorno de red.
+![image](https://github.com/m4rch4ck/instalacionissabel/assets/96228719/8a7dce97-619c-4dae-82c6-bbddd948ce4c)
+##
+![image](https://github.com/m4rch4ck/instalacionissabel/assets/96228719/6e12e68a-dffe-4838-ad0f-e49b524cf442)
+##
+![image](https://github.com/m4rch4ck/instalacionissabel/assets/96228719/42a10fdd-7e58-4fdf-bcd6-231e6b4ba6c4)
+##
+![image](https://github.com/m4rch4ck/instalacionissabel/assets/96228719/c49e9ed7-7e90-4467-930a-ec7a03a95a0b)
+##
+![image](https://github.com/m4rch4ck/instalacionissabel/assets/96228719/0b9973e4-de84-4812-a6de-723c57e13873)
+##
+![image](https://github.com/m4rch4ck/instalacionissabel/assets/96228719/17466dc6-b057-4280-aaf6-79ecb02cfbcb)
+
+3. Seguí las instrucciones del asistente de instalación de Issabel PBX para configurar los parámetros básicos, como idioma, zona horaria y contraseña de administrador.
+4. A continuación, configuré los parámetros de red, asegurándome de asignar una dirección IP adecuada para el servidor en mi entorno de red.
+![image](https://github.com/m4rch4ck/instalacionissabel/assets/96228719/714b21cb-a488-4ad2-8103-193fb2afa760)
+#IMPORTANTE
+ISSABEL utiliza mysql para añadir nuestras extensiones y que queden registradas:
+![image](https://github.com/m4rch4ck/instalacionissabel/assets/96228719/86f5638a-75d8-430c-ae3c-09f852c527a2)
 
 ### Paso 4: Configuración del sistema VoIP
 1. Accedí a la interfaz de administración de Issabel PBX a través de un navegador web para comenzar con la configuración del sistema VoIP.
